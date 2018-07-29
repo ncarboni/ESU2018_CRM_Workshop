@@ -2,7 +2,7 @@
 
 
 
-Material of the Workshop "**Integrating Human Science Data using CIDOC-CRM as Formal Ontology: a practical approach**" held in collaboration with @LeoZorc at the 9th European Summer University in Digital Humanities Culture & Technology, organised by the University of Leipzig (Germany) 17.-27.07.2018
+Material of the Workshop "**Integrating Human Science Data using CIDOC-CRM as Formal Ontology: a practical approach**" held in collaboration with [Leo Zorc](https://github.com/bitno) at the 9th European Summer University in Digital Humanities Culture & Technology, organised by the University of Leipzig (Germany) 17.-27.07.2018
 
 
 
