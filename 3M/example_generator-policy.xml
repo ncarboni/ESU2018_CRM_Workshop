@@ -1,0 +1,44 @@
+<generator_policy>
+   
+    <generator name="artistURI" prefix="esu">
+        <pattern>person/{id}</pattern>
+    </generator>
+    <generator name="idURI" prefix="esu">
+        <pattern>person/{id}/id</pattern>
+    </generator>
+    <generator name="placeURI" prefix="esu">
+        <pattern>place/{id}/</pattern>
+    </generator>
+        <generator name="hollisUIRI" prefix="esu">
+        <pattern>person/{id}/hollis</pattern>
+    </generator>
+    <generator name="ArtistAppellationURI" prefix="esu">
+        <pattern>person/{id}/appellation</pattern>
+    </generator>
+    <generator name="workURI" prefix="esu">
+        <pattern>work/{id}</pattern>
+    </generator>
+    <generator name="photoURI" prefix="esu">
+        <pattern>photo/{id}</pattern>
+    </generator>
+    <generator name="institutionURI" prefix="esu">
+        <pattern>institution/{id}</pattern>
+    </generator>
+    <generator name="conceptObjectURI" prefix="esu">
+        <pattern>conceptual_object/{id}</pattern>
+    </generator>
+    <generator name="prefLabel">
+        <pattern>{label}</pattern>
+    </generator>
+    <generator name="SimpleLabel">
+        <pattern>{label}</pattern>
+    </generator>
+    <generator name="URIorUUID">
+        <custom generatorClass="gr.forth.URIorUUID">
+            <set-arg name="text"/>
+        </custom>
+    </generator>
+    <!--
+ create other generator policies for other classes in our model diagram
+-->
+</generator_policy>

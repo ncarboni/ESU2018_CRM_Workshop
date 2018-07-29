@@ -28,12 +28,12 @@ Even though we will use two different photographic archives as our main datasets
 
 The slides can be found under the folder slides/
 
-The 3M workshop material include:
+The [3M](3M/) workshop material include:
 
-* A sample mapping in X3ML
-* The generator policy used for 3M
-* A modified version of CRMext4SKOSandLabel which include:
-  * Mapping with WGS84 Ontology
+* A sample mapping in [X3ML](3M/example_mapping.x3ml)
+* The generator policy used for [3M](3M/example_generator-policy.xml)
+* A modified version of [CRMext4SKOSandLabel](3M/CRMext4SKOSandLabel_v1.38.rdf) which include:
+  * Mapping with [WGS84 Ontology](https://www.w3.org/2003/01/geo/)
   * Possibility to add owl:sameas statements for each CRM Entity
   * Possibility to add rdfs:label for each CRM Entity
 
